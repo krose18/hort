@@ -1,13 +1,21 @@
 import random
 
-side = random.randint(1,2)
+numFlips = int(input("How many flips? "))
 
-# if side = 1, its heads
-# if side = 2, its tails
+flipCount = 0
 
-if (side==1):
-    result = "heads"
-else:
-    result = "tails"
+while flipCount < numFlips:
 
-print("I flipped a coin and the result is", result)
+    side = random.randint(1,2)
+
+    # if side = 1, its heads
+    # if side = 2, its tails
+
+    if (side==1):
+        result = "heads"
+    else:
+        result = "tails"
+
+    print("I flipped a coin and the result is", result)
+
+    flipCount += 1

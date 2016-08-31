@@ -1,3 +1,6 @@
 This project is a simple heads or tails "coin flipper".
 
 We can enhance this project later.
+
+The user chooses how many times the coin is flipped and the result is
+printed with each "flip".
